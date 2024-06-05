@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Gilroy';
+    height: 100%;
+    width: 100%;    
+    background-color: #fff;   
+    color: #FFA500;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+/*---------------------------------------------------------------*/
+/*                          NAV SECTION                          */
+/*---------------------------------------------------------------*/
+
+.sidebar{
+    font-weight: 600;
+    padding-right: 80px;
+    gap: 40px;
+}
+
+
+@media (max-width: 991px) {
+    .sidebar{
+        color: black;
+        font-weight: 600;
+    }
+
+    
+        #bord{
+           
+            border-top: 1px solid #0000007a;
+            border-bottom: 2px solid #0000007a;
+     
+        }
+    
+        .buto11{
+            border-top: 2px solid #0000007a;
+        }
+    
+        .buto22{
+            border-bottom: 2px solid #0000007a;
+        }
+    
+}
+
+/*---------------------------------------------------------------*/
+/*                            page 1                             */
+/*---------------------------------------------------------------*/
+
+
+.page1{
+    background-image: linear-gradient(to right, #0000007a, #0000007a), url('Bg-main.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#hero-txt>h1{
+    padding-top: 15%;
+    color: #01BAEF;
+}
+
+
+.page1>#hero-txt>h1{
+    background: -webkit-linear-gradient(#f9f295, #E0AA3E, #E0AA3E, #B88A44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Helvetica Neue";
+    font-size: 12vw;
+    font-weight: 900;
+    text-align: center;
+}
+
+.page1>img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media(max-width:1500px) {
+    .page1>#hero-txt>h1{
+        
+        font-size: 10vw;
+        font-weight: 900;
+        text-align: center;
+        
+    }
+
+    .page1{
+        height: auto;
+        width: 100vw;
+    }
+}
+
+@media (max-width:1000px){
+    .page1>#hero-txt>h1{
+        padding-top: 50%;
+    }
+}
+/* ------------------------------------------------- */
+/*                   Our services                    */
+/* ------------------------------------------------- */
+.card-img-top {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.card-title a:link {
+    font-size: 30px;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+@media (min-width: 1400px) {
+    .card>.card-body>.but{
+        margin-left: 6%;
+    }
+}
+
+.foottxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
